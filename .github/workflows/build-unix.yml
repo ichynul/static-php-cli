@@ -27,6 +27,7 @@ on:
           - '8.1'
       extensions:
         description: Extensions to build (comma separated)
+        default: 'apcu,bcmath,bz2,calendar,Core,ctype,curl,dom,event,exif,fileinfo,filter,ftp,gd,gmp,hash,iconv,imagick,imap,intl,json,libxml,mbstring,mysqli,mysqlnd,openssl,pcntl,pcre,PDO,pdo_mysql,pgsql,Phar,posix,protobuf,readline,redis,Reflection,session,shmop,SimpleXML,soap,sockets,sodium,SPL,sqlite3,standard,swoole,sysvmsg,sysvsem,sysvshm,tokenizer,xml,xmlreader,xmlwriter,xsl,OPcache,zip,zlib'
         required: true
         type: string
       extra-libs:
