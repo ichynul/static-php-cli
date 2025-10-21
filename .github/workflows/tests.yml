@@ -1,18 +1,7 @@
 name: Tests
 
 on:
-  pull_request:
-    branches: [ "main" ]
-    types: [ opened, synchronize, reopened ]
-    paths:
-      - 'src/**'
-      - 'config/**'
-      - '.github/workflows/tests.yml'
-      - 'bin/**'
-      - 'composer.json'
-      - 'box.json'
-      - '.php-cs-fixer.php'
-
+  workflow_dispatch:
 permissions: read-all
 
 env:
